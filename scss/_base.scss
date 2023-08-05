@@ -22,17 +22,27 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.6%;
+  font-size: 10px;
+
+  h1 {
+  font-size: 2.5rem; /* 40px */
+}
+
+p {
+  font-size: 0.9375rem; /* 15px */
+}
+
+
 }
 
 body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 1.25rem;
   font-size: var(--fs-body);
   background-color: var(--Very-light-gray);
 
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  
 }
