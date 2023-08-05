@@ -1,3 +1,13 @@
-.sayHello {
-    font-size: 50px;
+.container {
+  background-color: red;
+  max-width: 57.5rem;
+  max-height: 31.25rem;
+  margin: 10.68rem auto 8.06rem auto;
 }
+
+
+.column-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
